@@ -36,14 +36,11 @@ import Fetch from './Fetch.svelte';
 <div class='flexContainer'>
     <Header/>
     <div class='mainContent'>
-        <section>
+      <section>
+        <h2>New Website Coming Soon!</h2>
+      </section>
+      <section>
             <About/>
-        </section>
-        <section>
-            <Gallery url={'images/images.json'}/>
-        </section>
-        <section>
-            <Events url={'events.json'}/>
         </section>
         <section>
             <ContactDetails/>
